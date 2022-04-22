@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+
+    <style>
+        body {
+            background-color: dimgray;
+            margin: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: darkgrey;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: darkgrey;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Clica</a>
+            <a href="#">Clica</a>
+            <a href="#">Clica</a>
+            <a href="#">Clica</a>
+            <a href="#">Clica</a>
+            <a href="#">Clica</a>
+        </nav>
+    </header>
+    <main>
+        <section id="anuncios">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Título da notícias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus accusamus rem quidem nesciunt asperiores veniam ea debitis sequi ex ad, commodi doloremque quis iure numquam officia a aliquid facilis ipsa.</p>
+                <aside>
+                    Artigo escrito por André Dal Corsi
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por André Dal Corsi</p>
+    </footer>
+</body>
+</html>
