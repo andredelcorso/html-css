@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: italic;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left; /* ALINHAMENTO HORIZONTAL */
+            vertical-align: middle; /*ALINHAMENTO VERTICAL */
+        }
+
+        thead, tfoot {
+            background-color: grey;
+            color:white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(even) { 
+            background-color: lightgrey;
+        }
+
+        td.num {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+     <!--
+        HIERARQUIA DE TABNELAS (SIMPLES)
+        TABLE = TABELA
+            TABLE ROW = LINHA DE TABELA
+                TABLE HEADER = CABEÇALHO DE TABELA
+                TABLE DATA = DADO DE TABELA
+    -->
+
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <thead>
+
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">500.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">1.600.000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2.000.000</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>
+                    Total de habitantes
+                </th>
+                <td class="num"><strong>4.100.000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem!
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem!
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem!
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem!
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem!
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, similique reprehenderit nam esse amet iure rem aliquid sequi repellendus aliquam architecto animi qui quasi consequatur molestias! Consequuntur tempora neque dolorem!
+    </p>
+</body>
+</html>
